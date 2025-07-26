@@ -10,10 +10,11 @@ import { LanguageProvider } from "@/components/language-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Fermer Assistant - Farm Management Made Easy",
-  description: "Manage your farming tasks, track weather, crop information, and market prices all in one place.",
-    generator: 'v0.dev'
-}
+  title: "Fermer Yordamchisi – Fermerlar uchun qulay platforma",
+  description: "Fermerlar uchun bepul yordamchi: mahsulot e’lon qilish, sotib olish, ob-havo, ekinlar va bozor narxlarini kuzatish bir joyda.",
+  generator: "fermer-yordamchisi.vercel.app"
+};
+
 
 export default function RootLayout({
   children,
