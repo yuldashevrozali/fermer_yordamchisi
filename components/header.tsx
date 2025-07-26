@@ -16,6 +16,7 @@ const navigation = [
   { name: "Tasks", nameUz: "Vazifalar", href: "/tasks" },
   { name: "Crops", nameUz: "Ekinlar", href: "/crops" },
   { name: "Market", nameUz: "Bozor", href: "/market" },
+  { name: "Developer", nameUz: "Dasturchi", href: "/dasturchi" },
 ]
 
 export function Header() {
